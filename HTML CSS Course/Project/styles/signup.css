@@ -1,0 +1,81 @@
+.container {
+    background: white;
+    border: none;
+    border-width: 1px;
+    border-radius: 2px  ;
+    box-shadow: 10px 4px 30px #888888;  ;
+    width: 300px;
+    height: 400px;
+
+    padding-left:4rem;
+    padding-right:4rem;
+    padding-top:2rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    
+}
+
+.name {
+
+    border: none;
+    box-shadow: 0 0 2px rgb(139, 139, 139);
+    border-radius: 3px;
+    width: 8rem;
+    height: 2rem;
+    margin-right: 0.4rem;
+    padding-left: 0.7rem;
+
+}
+
+.name::placeholder {
+    padding-left: 0.1rem;
+}
+
+.email {
+
+    border: none;
+    box-shadow: 0 0 2px rgb(139, 139, 139);
+    border-radius: 3px;
+    width: 17.5rem;
+    height: 2rem;
+    margin-right: 0.4rem;
+    padding-left: 0.7rem;
+}
+
+.email::placeholder {
+    padding-left: 0.1rem;
+}
+
+.button {
+    background-color: rgb(55, 131, 218);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px rgb(139, 139, 139);
+    /* box-shadow : 10px 4px 15px #888888; */
+    border-radius: 3px;
+    width: 18.5rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button:active {
+    opacity: 0.5;
+
+}
+h1 {
+
+    font-size: 2.5rem;
+    text-align: center;
+}
